@@ -1,0 +1,45 @@
+.boton-secundario {
+    padding: 10px;
+    background-color: var(--primary-gray);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-white);
+
+    &:disabled {
+        background-color: var(--secondary-gray);
+        cursor: not-allowed;
+    }
+    &:disabled:active {
+        background-color: var(--secondary-white);
+    }
+    &:disabled:hover {
+        background-color: var(--secondary-gray);
+    }
+}
+
+.boton-secundario:hover {
+    background-color: var(--secondary-black);
+}
+
+.boton-secundario:active {
+    transform: scale(1.02);
+    background-color: var(--quinary-blue);
+}
+
+/* TABLET*/
+@media (max-width: 1024px) {
+}
+
+/* MOBILE*/
+@media (max-width: 450px) {
+    .boton-secundario {
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+
+/* SMALL MOBILE*/
+@media (max-width: 375px) {
+}

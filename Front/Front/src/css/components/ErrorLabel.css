@@ -1,0 +1,5 @@
+.error-label {
+    color: var(--primary-red);
+    text-decoration: underline;
+    font-size: 12px;
+}

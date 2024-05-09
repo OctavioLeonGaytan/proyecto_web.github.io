@@ -1,0 +1,15 @@
+.field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.field-container label {
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+.field-container div {
+    display: flex;
+    flex-direction: column;
+}

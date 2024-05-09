@@ -1,0 +1,7 @@
+.button-plus {
+    width: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 30px;
+    background-color: var(--quarternary-blue);
+    cursor: pointer;
+}

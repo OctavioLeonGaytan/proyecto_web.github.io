@@ -1,0 +1,9 @@
+.table-container {
+    width: 99%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+    background-color: var(--secondary-white);
+    overflow-x: auto;
+}

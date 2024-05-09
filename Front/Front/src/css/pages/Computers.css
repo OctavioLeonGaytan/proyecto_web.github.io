@@ -1,0 +1,32 @@
+.head-table-container {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.input-search-table-container {
+    display: flex;
+    gap: 10px;
+}
+
+.input-search-table {
+    height: 30px;
+    padding: 5px;
+    background-color: var(--secondary-gray);
+    border: 1px solid var(--primary-gray);
+}
+
+.input-search-icon-table {
+    height: 20px;
+    aspect-ratio: 1/1;
+}
+
+.indicador-activo {
+    color: var(--primary-green);
+}
+
+.indicador-baja {
+    color: var(--primary-red);
+}

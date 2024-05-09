@@ -1,0 +1,119 @@
+:root {
+    --primary-blue: #1F285C;
+    --secondary-blue: #1A308E;
+    --tertiary-blue: #0E1D62;
+    --quarternary-blue: #305896;
+    --quinary-blue: #3F4F78;
+
+    --primary-white: #FFFFFF;
+    --secondary-white: #F5F5F5;
+    --tertiary-white: #EBF0FF;
+    --quarternary-white: #F6F8FD;
+
+    --primary-black: #000000;
+    --secondary-black: #222D32;
+
+    --primary-gray: #58627B;
+    --secondary-gray: #DCE1EE;
+
+    --primary-red: #D22030;
+    --secondary-red: #EC0D20;
+
+    --primary-green: #008000;
+    --secondary-green: #32CD32;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary-white);
+    width: 100%;
+    height: 100vh;
+    /* overflow-y: hidden */
+    max-width: 2560px;
+    margin: 0 auto;
+    position: relative;
+}
+  
+#root {
+    width: 100%;
+    height: 100%;
+}

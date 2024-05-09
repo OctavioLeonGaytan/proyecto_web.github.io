@@ -1,0 +1,36 @@
+.button {
+    background-color: var(--quarternary-blue);
+    color: var(--tertiary-white);
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:disabled {
+        background-color: #5b77a0;
+        cursor: not-allowed;
+    }
+    &:disabled:active {
+        background-color: #5b77a0;
+    }
+}
+
+.button:active {
+    background-color: var(--secondary-blue);
+}
+
+/* TABLET*/
+@media (max-width: 1024px) {
+}
+
+/* MOBILE*/
+@media (max-width: 450px) {
+    .button {
+        font-size: 10px;
+    }
+}
+
+/* SMALL MOBILE*/
+@media (max-width: 375px) {
+}
